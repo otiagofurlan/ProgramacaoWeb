@@ -4,6 +4,15 @@ public class Cliente {
     private int id;
     private String nome;
     private int idade;
+    private String endereco;
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
 
     public Cliente() {
 
