@@ -1,10 +1,5 @@
-# fatec
-Programação Web
+git clone https://github.com/h2danilofatec/projeto-1semestre-2025.git
 
-Como puxar um repositório
+git config –global user.name “h2danilofatec”
 
-1. git clone repositorio
-
-2. git config --global user.name "nome"
-
-3. git config --global user.email "email"
+git config –global user.email “danilo.valim01@fatecitapetininga.edu.br”

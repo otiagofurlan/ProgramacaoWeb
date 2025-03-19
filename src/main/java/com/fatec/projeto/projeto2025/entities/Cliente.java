@@ -1,28 +1,28 @@
 package com.fatec.projeto.projeto2025.entities;
 
+
 public class Cliente {
-    private int id;
+    private Long id;
     private String nome;
-    private int idade;
+    private Integer idade;
     private String endereco;
 
-    public String getEndereco() {
-        return endereco;
-    }
+    // Construtores
+    public Cliente() {}
 
-    public void setEndereco(String endereco) {
+    public Cliente(Long id, String nome, int idade, String endereco) {
+        this.id = id;
+        this.nome = nome;
+        this.idade = idade;
         this.endereco = endereco;
     }
 
-    public Cliente() {
-
-    }
-
-    public int getId() {
+    // Getters e Setters
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -34,7 +34,7 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public int getIdade() {
+    public Integer getIdade() {
         return idade;
     }
 
@@ -42,5 +42,15 @@ public class Cliente {
         this.idade = idade;
     }
 
-    
+    public void setIdade(Integer idade) {
+        this.idade = idade;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
 }
