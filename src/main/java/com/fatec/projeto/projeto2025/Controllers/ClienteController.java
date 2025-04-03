@@ -1,4 +1,4 @@
-package com.fatec.projeto.projeto2025.controllers;
+package com.fatec.projeto.projeto2025.Controllers;
 
 import org.springframework.web.bind.annotation.*;
 
