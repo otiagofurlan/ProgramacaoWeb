@@ -1,6 +1,5 @@
 package com.fatec.projeto.projeto2025.entities;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
